@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>PHP Class - Cathy Squires</title>
+    <title>PHP Class</title>
     <link rel="stylesheet" type="text/css" href="css/mystyles.css"/>
 </head>
 
