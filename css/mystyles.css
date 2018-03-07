@@ -12,6 +12,8 @@ body {
     line-height: 1.8rem;
 }
 
+.center {text-align:center;}
+
 .page-wrap {
      max-width: 1400px;
      margin: 0 auto;
@@ -92,6 +94,15 @@ body {
     display:table-cell;
 
 }
+
+marquee {
+    background-color:lavender;
+    color: rebeccapurple;
+    white-space: nowrap;
+    margin:20px 50px;
+    padding:10px 20px;
+
+}
 .right-sidebar {
     border-left: 1px dashed #ccc;
     border-right: 1px solid #ccc;
@@ -105,4 +116,18 @@ footer {
     font-size: .8rem;
     line-height: 50px;
     padding: 0 20px;
+}
+
+/* Forms */
+
+input[type=text], input[type=tel], input[type=email],input[type=password]{
+    width:100%;
+    padding: 12px 20px;
+    margin: 0px 0px 15px 0px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+label {
+    font-size:14px;
 }
